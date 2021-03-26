@@ -11,6 +11,7 @@ https://docs.microsoft.com/en-us/office/office-365-management-api/office-365-ser
 You will first need to create an Azure AD App registration
 https://github.com/jofried/O365ServiceHealth/blob/master/O365ServiceHealthAppRegistration.pdf <br>
 Once the App Registration is complete you will need to modify the script (O365ServiceHealth.ps1) to add the the Client and Tenant ID, as well as the Client Secret.
-
+<br>
 The script will output the csv report to C:\temp\O365ServiceHealth_<datetime>
+  <br>
 Please create path "C:\temp\" if it doesnt already exist
